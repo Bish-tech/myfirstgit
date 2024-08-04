@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/CSS/stylee.css" />
+  </head>
+  <body>
+    <!-- <div class="parent">
+      <div class="first clild">1</div>
+      <div class="second clild">2</div>
+      <div class="third clild">3</div>
+      <div class="fourth clild">4</div>
+    </div> -->
+
+    <!-- <div class="float">
+      <div class="left">one</div>
+      <div class="right">two</div>
+      <div class="ri">third</div>
+    </div> -->
+
+
+    <div class="main">
+      <div class="child child-1">1</div>
+      <div class="child child-2">2</div>
+      <div class="child child-3">3</div>
+      <div class="child child-4">4</div>
+      <div class="child child-5">5</div>
+      <div class="child child-6">6</div>
+      <div class="child child-7">7</div>
+      <div class="child child-8">8</div>
+      <div class="child child-9">9</div>
+      <div class="child child-10">10</div>
+    </div>
+  </body>
+</html>
+
+
+
+Reset some default styles
+body, h1, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Navbar container */
+.navbar {
+    background-color: white;
+    color: #fff;
+    padding: 0.5rem 1rem;
+}
+
+/* Center content in the container */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+
+.nav-links li {
+    text-align: left;
+    margin-left: 1rem;
+    text-decoration: none;
+}
+
+.hh{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 1rem;
+    display: inline-block;
+    border-radius: 12px;
+}
+
+a:hover {
+    background-color: bisque;
+}
+
+
+*{
+    color: rgb(red, green, blue);
+}
+
+
+.child-1{
+    flex-grow: 1;
+}
+.child{
+    background-color: rgb(33, 33, 3);
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    height: 100px;
+    width: 300px;
+    flex: 1 1 300px;
+}
+.main div:nth-child(odd){
+    background-color: aquamarine;
+}
+
+.main div:nth-child(even){
+    background-color: blueviolet;
+}

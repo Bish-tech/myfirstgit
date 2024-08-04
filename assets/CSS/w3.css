@@ -1,0 +1,409 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+.header {
+    background-color: #4CAF50;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 19px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.hero {
+    background-color: #071208;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.howtosection {
+    background-color: #eff2ef;
+    color: rgb(12, 12, 12);
+    padding: 60px 20px;
+    text-align: center;
+
+}
+.footer{
+    background-color: #0c0824;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+.foot{
+    text-decoration: none;
+}
+.y{
+    text-decoration: none;
+    color: rgb(206, 206, 88);
+}
+.y:hover{
+    text-decoration: underline;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-color: #030303;
+}
+
+.content-box {
+    background-color: rgb(216, 129, 129);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+}
+
+.content-box1 {
+    background-color: rgb(233, 224, 100);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+}
+.content-box2 {
+    background-color: rgb(179, 173, 173);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+}
+
+.content-box3 {
+    background-color: rgb(92, 99, 75);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+}
+
+.ca{
+    background-color: rgb(160, 85, 167);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(236, 154, 215);
+    margin: 25px;
+    padding: 25px;
+    text-align: center;
+    width: 400px;
+
+}
+.ca:hover{
+    background-color: pink;
+}
+.cqa{
+    background-color: rgb(185, 221, 112);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(185, 221, 112);
+    margin: 25px;
+    padding: 25px;
+    text-align: center;
+    width: 400px;
+
+}
+.cqa:hover{
+    background-color: lightyellow;
+}
+
+.car{
+    background-color: rgb(201, 202, 199);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(201, 202, 199);
+    margin: 25px;
+    padding: 25px;
+    text-align: center;
+    width: 190px;
+
+}
+.car:hover{
+    background-color: gray;
+}
+.cak{
+    background-color: rgb(108, 160, 137);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(108, 160, 137);
+    margin: 25px;
+    padding: 25px;
+    text-align: center;
+    width: 190px;
+
+}
+.cak:hover{
+    background-color: lightgreen;
+}
+
+.can{
+    background-color: rgb(65, 186, 202);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(65, 186, 202);
+    margin: 25px;
+    padding: 25px;
+    text-align: center;
+    width: 190px;
+
+}
+.can:hover{
+    background-color: lightblue;
+}
+
+.care{
+    background-color: lightpink;
+    border-radius: 20px;
+    box-shadow: 0 0 10px lightpink;
+    margin: 25px;
+    padding: 25px;
+    text-align: center;
+    width: 190px;
+
+}
+.care:hover{
+    background-color: rgb(225, 158, 168);
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.b{
+    padding: 20px;
+    margin: 7px;
+    text-decoration: none;
+    color: black;
+   
+}
+
+.b:hover{
+    background-color: #088f1a;
+}
+
+.c{
+    padding: 20px;
+    margin: 7px;
+    text-decoration: none;
+    color: black;
+    border-radius: 12px;
+
+}
+
+.c:hover{
+    background-color: #b3b0b0;
+}
+.a{
+    border-radius: 100rem;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-radius: 15px;
+    background-color: #12923f;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #09b520;
+}
+
+.aa{padding: 10px 20px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-radius: 15px;
+    background-color: #8cdba8;
+    color: rgb(23, 22, 22);
+    cursor: pointer;
+
+}
+
+.aa:hover{
+    background-color: #09b520;   
+}
+.ab {
+    color: rgb(197, 197, 63);
+    
+}
+.ww{
+    margin: 10px;
+    padding: 10px;
+}
+.n{
+    text-decoration: underline;
+}
+
+.hero2{
+    background-color: #7ec584;
+    color: rgb(11, 11, 11);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.aaa{padding: 10px 20px;
+    font-size: 18px;
+    border: 1px solid #268a49;
+    border-left: none;
+    border-radius: 25px;
+    background-color: #268a49;
+    color: rgb(217, 209, 209);
+    cursor: pointer;
+
+}
+
+.aaa:hover{
+    background-color: #147220;
+}
+.aav{padding: 10px 20px;
+    font-size: 18px;
+    border: 1px solid #adb138;
+    border-left: none;
+    border-radius: 25px;
+    background-color: #adb138;
+    color: rgb(12, 11, 11);
+    cursor: pointer;
+
+}
+
+.aav:hover{
+    background-color: #999c33;
+}
+.aah{padding: 10px 20px;
+    font-size: 18px;
+    border: 1px solid #111110;
+    border-left: none;
+    border-radius: 25px;
+    background-color: #161616;
+    color: rgb(244, 239, 239);
+    cursor: pointer;
+
+}
+
+.aah:hover{
+    background-color: #030303;
+}
+
+.aav:hover{
+    background-color: #999c33;
+}
+.aag{padding: 10px 20px;
+    font-size: 18px;
+    border: 1px solid #e59191;
+    border-left: none;
+    border-radius: 25px;
+    background-color: #e59191;
+    color: rgb(16, 16, 16);
+    cursor: pointer;
+
+}
+
+.aag:hover{
+    background-color: rgb(184, 106, 106);
+}
+
+.php{
+    padding: 10px 20px;
+    font-size: 18px;
+    border: 1px solid #0f0e0e;
+    border-left: none;
+    border-radius: 25px;
+    background-color: #120e0e;
+    color: rgb(235, 225, 225);
+    cursor: pointer;
+
+}
+.php:hover{
+    background-color: #070707;
+}
+
+.all{
+    width: 60%;
+    height: 500px;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 0px 0px 3px grey;
+    position: relative;
+}
+
+
+.slider {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}

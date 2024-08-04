@@ -1,0 +1,17 @@
+.table-container{
+    padding: 1rem;
+    background-image: url(../Images/flower.jpg);
+    background-position: 20% 50%;
+}
+
+table{
+    width: 70%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.774);
+}
+
+th, td{
+    border: 1px solid;
+}

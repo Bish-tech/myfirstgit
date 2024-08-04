@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="demo"></p>
+    <p class="new">hello</p>
+    <p class="new">ram</p>
+    <p class="new">i am from nepal</p>
+    <p id="new"></p>
+    <h1></h1>
+
+    <script src="../assets/JS/min.js"></script>
+
+    <script>
+          var y = document.getElementById("demo").innerHTML = "Hello world its me" ;
+    
+      var x = document.getElementsByClassName("new");
+    
+
+
+      document.getElementById("new").innerHTML =
+      x[0].innerHTML + x[1].innerHTML + x[2]. innerHTML;
+      document.getElementsByTagName("h1")[0].innerHTML = "Hello world" ;
+      document.querySelector ("#demo").innerHTML = "Hello World";
+      document.queryselector (".new").innerHTML = "Hello world" ;
+      document.querySelectorAll(".new").innerHTML = "Hello world";
+    </script>
+  </body>
+</html>
